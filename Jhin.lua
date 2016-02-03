@@ -25,6 +25,7 @@ mainMenu:Menu("Drawings", "Drawings")
 mainMenu.Drawings:Boolean("drawQ", "Draw Q", true)
 mainMenu.Drawings:Boolean("drawW", "Draw W", true)
 mainMenu.Drawings:Boolean("drawE", "Draw E", true)
+mainMenu:Info("Gapcloser", "Gapcloser")
 
 local IsMarked = false
 
