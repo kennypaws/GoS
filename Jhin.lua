@@ -97,4 +97,6 @@ local WPred = GetPredictionForPlayer(myHeroPos,target,GetMoveSpeed(target),1400,
 		end
 end
 end
-	end)
+end)
+
+AddGapcloseEvent(_E, 750, true, mainMenu)
